@@ -26,6 +26,9 @@ ground= new Ground(600,390,1200,10)	;
 
 function draw() {
   background(0);
+	fill("white");
+	textSize(25);
+	text("Press up arrow key to throw the ball in dustbin",100,100);
   Engine.update(engine);
  
 
